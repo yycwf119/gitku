@@ -35,7 +35,6 @@
 <rss version=\"2.0\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:admin=\"http://webns.net/mvcb/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\">
 <channel>
 ";
-echo $xml;
 print $dom->saveXML();
 echo "</channel></rss>";
 ?>
